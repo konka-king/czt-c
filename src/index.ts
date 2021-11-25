@@ -1,3 +1,2 @@
-import Timer from './components/timer/timer'
-
-export default Timer
+export { default as CztTab } from './components/cztTab';
+export { default as CztButton } from './components/cztButton';

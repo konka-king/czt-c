@@ -1,0 +1,40 @@
+.czt-button,
+.czt-button-disabled {
+  background: #ffa145;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 36px;
+
+  border-radius: 8px;
+  overflow: hidden;
+}
+.czt-button-disabled-bg {
+  background: #d8d8d8;
+}
+.czt-button::after,
+.czt-button-disabled::after {
+  border: 0px;
+}
+.czt-button:active {
+  transform: scale(0.95);
+}
+.czt-button-line::after {
+  background-image: linear-gradient(
+    100deg,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  background-size: 200% 100%;
+  background-position-x: 180%;
+  animation: 1s loading ease-in-out infinite;
+}
+@keyframes loading {
+  to {
+    background-position-x: -20%;
+  }
+}

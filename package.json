@@ -44,6 +44,7 @@
     "@types/react-dom": "^16.9.8",
     "@typescript-eslint/eslint-plugin": "^2.x",
     "@typescript-eslint/parser": "^2.x",
+    "classnames": "^2.3.1",
     "cross-env": "^7.0.2",
     "eslint": "^7.2.0",
     "eslint-config-taro": "^3.0.8",
@@ -51,9 +52,12 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
     "jest": "26",
+    "node-sass": "^6.0.1",
     "rimraf": "3.0.2",
     "rollup": "^2.16.1",
     "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-css-porter": "^1.0.2",
+    "rollup-plugin-scss": "^3.0.0",
     "rollup-plugin-typescript2": "^0.27.1",
     "rollup-plugin-visualizer": "^4.0.4",
     "stylelint": "13.6.0",
@@ -67,5 +71,8 @@
     "@tarojs/react": "^3.0.8",
     "react": ">=16.13.0",
     "react-dom": ">=16.13.0"
+  },
+  "dependencies": {
+    "user": "^0.0.0"
   }
 }
